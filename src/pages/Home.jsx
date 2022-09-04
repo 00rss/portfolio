@@ -36,11 +36,32 @@ const Home = () => {
                   linkLegend="Click para revisar el proyecto en vivo"
                   styleCard={2}
                 />
-                <Card styleCard={1} />
-                <Card styleCard={0} />
+                <Card
+                  title="Chat en tiempo real"
+                  description="Chat en tiempo real creado con Reactjs, Tailwind y Firebase. ingresa con tu cuenta de Google, ¡escribe un mensaje y míralo reflejado en tiempo real!"
+                  link="http://localhost:5173/"
+                  icon={linkIcon}
+                  linkLegend="Click para revisar el proyecto en vivo"
+                  styleCard={2}
+                />
+                <Card
+                  title="Horario de Clases "
+                  description="Reloj analógico realizado con Vanilla JavaScript, Html5 y Css. Con opción para cambiar de Zona horario, colores, tamaño, etc."
+                  link="http://localhost:5173/"
+                  icon={linkIcon}
+                  linkLegend="Click para revisar el proyecto en vivo"
+                  styleCard={2}
+                />
               </div>,
 
-              <Card />,
+              <Card
+                title="Reloj analógico"
+                description="¡Extensión para instalar en tu navegador Chrome!, creado con Vanilla JavaScript, Html5 y Css. ¡Con links para ingresar a tus clases favoritas!"
+                link="http://localhost:5173/"
+                icon={linkIcon}
+                linkLegend="Click para revisar el proyecto en vivo"
+                styleCard={1}
+              />,
               <Card />,
               <Card />,
             ]}
